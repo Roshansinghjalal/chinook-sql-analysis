@@ -1,4 +1,3 @@
-# chinook-sql-analysis
 # 🎵 Chinook SQL Analysis Project
 
 This project demonstrates practical SQL analysis using a **custom version** of the Chinook music store database. It includes queries that extract business insights related to customers, sales, tracks, genres, revenue, and more — ideal for analytics portfolios and interview preparation.
@@ -40,11 +39,32 @@ The dataset includes:
 > 🔧 You can load this CSV into any SQL-compatible platform (e.g., PostgreSQL, MySQL, SQLite) using built-in import tools or SQL loaders.
 
 ---
+## 📊 Tech Stack
+SQL (PostgreSQL-friendly syntax)
 
-## 🧠 Sample Query Example
+Custom CSV dataset
 
-```sql
--- List all albums with their artist names
-SELECT Alb."Title", Art."Name"
-FROM "Album" AS Alb
-JOIN "Artist" AS Art ON Alb."ArtistId" = Art."ArtistId";
+Data import using SQL scripts or database tools
+
+## 🚀 How to Use
+Import the CSV file into your SQL database as a table or set of tables.
+
+Open and run queries from scripts/analysis_queries.sql.
+
+Explore, modify, or expand the queries for your own use cases.
+
+## 🎯 Ideal For
+Data analysis and SQL portfolio building
+
+Business intelligence practice
+
+Academic assignments or capstone projects
+
+Interview preparation (SQL case studies)
+
+
+## 🧑‍💻Author
+**Roshan Singh Jalal**
+
+- 💼Linkedin: https://www.linkedin.com/feed/
+- 📧 Email: roshansinghjalal35@gmail.com
